@@ -1,0 +1,1 @@
+web: gunicorn --workers 3 --preload --timeout 120 --log-level debug fi:app_fi
